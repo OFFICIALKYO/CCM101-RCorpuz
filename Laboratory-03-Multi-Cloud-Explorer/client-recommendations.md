@@ -20,12 +20,4 @@
 **Explanation:** (global availability, auto scaling)
 **Services:** (at least 3)
 
-## Multi-Cloud Decision Matrix
-| Business Requirement | Recommended Platform | Justification |
-|---|---|---|
-| Startup Company | | |
-| Enterprise Organization | | |
-| Microsoft Environment | | |
-| AI / Machine Learning | | |
-| Kubernetes Deployment | | |
-| Global Web Application | | |
+
