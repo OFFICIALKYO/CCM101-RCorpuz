@@ -6,7 +6,7 @@
 docker run -d -p 9000:9000 -p 9001:9001 --name minio-server \
 -e "MINIO_ROOT_USER=cloudadmin" \
 -e "MINIO_ROOT_PASSWORD=CloudNova2026!" \
-minio/minio server /data --console-address ":9001"
+pgsty/minio:latest server /data --console-address ":9001"
 ```
 
 ## 2. Web Console Port
@@ -33,7 +33,11 @@ The `-e` flag passes environment variables into the container when it starts, so
 5. Created the `client-photos` bucket.
 6. Uploaded a sample file to the bucket.
 
-## 6. Screenshots
+## 6. Note on the Image Source
+
+The `minio/minio` image from the lab instructions returned `pull access denied` on Docker Hub, because MinIO no longer publishes its images there. I used `pgsty/minio:latest` instead. The ports, environment variables, and credentials are the same as in the lab instructions.
+
+## 7. Screenshots
 
 ### MinIO Deployed
 ![MinIO Deployed](screenshots/minio-deployed.png)
