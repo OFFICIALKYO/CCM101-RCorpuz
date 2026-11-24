@@ -54,6 +54,35 @@ I recommend AWS because it has a global infrastructure that can support an onlin
 4. **Amazon RDS:** Manages product, customer, and transaction databases.
 5. **Amazon S3:** Stores product images, documents, and other website files.
 
+
+
+
+Checkpoint 6 – Multi-Cloud Decision Matrix
+
+Business Requirement | Recommended Platform | Justification
+---------------------|----------------------|-------------
+Startup Company | AWS | AWS provides a wide range of scalable and flexible services that allow startups to begin with smaller resources and expand as their applications grow.
+Enterprise Organization | AWS | AWS provides a broad selection of enterprise services, strong security features, global infrastructure, and scalable resources for complex workloads.
+Microsoft Environment | Microsoft Azure | Azure provides strong integration with Windows Server, Microsoft 365, Microsoft Entra ID, and other Microsoft technologies.
+AI / Machine Learning | Google Cloud Platform | Google Cloud provides strong artificial intelligence and machine learning services, including Vertex AI and high-performance computing resources.
+Kubernetes Deployment | Google Cloud Platform | Google Cloud provides Google Kubernetes Engine (GKE), a managed Kubernetes platform designed for deploying, managing, and scaling containerized applications.
+Global Web Application | AWS | AWS provides global infrastructure, automatic scaling, load balancing, content delivery, and other services that support highly available web applications.
+
+Decision Matrix Summary
+
+1. Startup Company – AWS is recommended because it provides scalable services and a large selection of tools suitable for growing businesses.
+
+2. Enterprise Organization – AWS is recommended because of its broad service portfolio, security capabilities, scalability, and global infrastructure.
+
+3. Microsoft Environment – Microsoft Azure is recommended because it integrates strongly with existing Microsoft technologies.
+
+4. AI / Machine Learning – Google Cloud is recommended because of its strong AI, machine learning, and data analytics capabilities.
+
+5. Kubernetes Deployment – Google Cloud is recommended because Google Kubernetes Engine provides a managed Kubernetes environment for containerized applications.
+
+
+
+
 ## Conclusion
 
 Each cloud platform has different strengths depending on the needs of a business or organization. AWS is recommended for the startup company and global e-commerce company because of its flexible services and scalability. Microsoft Azure is suitable for the university because of its integration with Microsoft technologies. Google Cloud Platform is recommended for the AI research company because of its artificial intelligence, machine learning, and computing capabilities. Choosing the right cloud platform depends on the organization's budget, existing technology, and business requirements.
